@@ -57,13 +57,14 @@ end
  gem 'jquery-ui-rails'
 
 
+ gem "therubyracer"
+ 
 group :assets do
  gem 'coffee-rails', '4.0.0'
  gem 'sass-rails', '4.0.0.rc2'
-
 # Use Uglifier as compressor for JavaScript assets
  gem 'uglifier', '2.1.1'
- # gem "therubyracer"
+
  gem 'less-rails'
  gem 'twitter-bootstrap-rails'
 
