@@ -53,22 +53,20 @@ group :production do
 	gem 'rails_12factor', '0.0.2'
 end
 
- gem 'jquery-datatables-rails', github: 'rweng/jquery-datatables-rails'
- gem 'jquery-ui-rails'
+gem 'jquery-datatables-rails', github: 'rweng/jquery-datatables-rails'
+gem 'jquery-ui-rails'
 
-
- gem "therubyracer"
+# gem 'libv8', '~> 3.11.8'
+gem "therubyracer", '0.12.0'
+gem 'twitter-bootstrap-rails'
  
-group :assets do
  gem 'coffee-rails', '4.0.0'
  gem 'sass-rails', '4.0.0.rc2'
 # Use Uglifier as compressor for JavaScript assets
  gem 'uglifier', '2.1.1'
 
  gem 'less-rails'
- gem 'twitter-bootstrap-rails'
 
-end
 
 # gem 'jquery-ui-rails'
 
